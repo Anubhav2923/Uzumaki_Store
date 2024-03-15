@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "name" : "Laptop",
+        "category" : "Computer",
+        "brand" : "ExampleBrand" ,
+        "price" : 999.99,
+        "stock" : 50,
+        "description" : "poweruldsfjlkjsaf dsfjkldsjfdshfldsjf;dsfjdsljf",
+        "image": "public/product_Images/"
+    },
+
+    {
+        "id" : 1,
+        "name" : "Laptop",
+        "category" : "Computer",
+        "brand" : "ExampleBrand" ,
+        "price" : 999.99,
+        "stock" : 50,
+        "description" : "poweruldsfjlkjsaf dsfjkldsjfdshfldsjf;dsfjdsljf",
+        "image": "public/product_Images/"
+    }
+]
