@@ -739,6 +739,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4.8rem;
+  margin-top: -4rem;
 
   & .information {
     display: flex;
@@ -779,18 +780,24 @@ footer {
   -ms-border-radius: 10rem;
   -o-border-radius: 10rem;
 }
-
-.productImage {
-  max-width: 100%;
-  width: 32rem;
-  height: auto;
+.imageContainer {
+  height: 20rem; 
+  width: 100%;
+  position: relative;
+}
+.imageContainer .productImage {
+ height: 20rem;
+ width: 20rem;
+  position: absolute;
+  top: 0;
+  left: 55px;
 }
 
 .productPriceElement,
 .productQuantityElement,
 .productStockElement {
   display: flex;
-  gap: 2rem;
+  gap:1.5rem;
   align-items: center;
   text-align: center;
 }
@@ -801,7 +808,7 @@ footer {
 
 .productProperty,
 .productDescription {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .stockElement {
