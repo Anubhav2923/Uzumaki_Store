@@ -913,9 +913,9 @@ footer {
   & .card {
     width: 100%;
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 1fr 0.5fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr .75fr ;
     align-items: center; /* margin: auto; */
-    gap: 3.2rem;
+    gap: 1rem;
   }
 
   & .productImage {
@@ -924,6 +924,7 @@ footer {
 
   & .productName {
     font-size: 2rem;
+    z-index: 100;
   }
 
   & .productPrice {
